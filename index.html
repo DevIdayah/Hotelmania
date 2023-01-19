@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>HOTELMANIA</title>
+</head>
+
+
+<body>
+    <section class="header">
+        <div class="flex item-center justify-between sm:mx-4 sm:my-4 md:mx-10 md:my-5 lg:mx-10 ">
+            <div>
+                <h1 class="font-semibold">HOTEL<span class="uppercase text-secondary">mania</span></h1>
+            </div>
+
+            <div class="font-light text-sm hidden md:flex md:flex-row md:space-x-8">
+                <a href="#" class="link">Home</a>
+                <a href="#" class="link">Services</a>
+                <a href="#" class="link">About Us</a>
+                <a href="#" class="link">Contact Us</a>
+            </div>
+            <div class="hidden md:block">
+                <button class="rounded-full px-3 py-2 bg-root text-white animate-bounce">contact us</button>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="md:hidden h-6 w-6" id="nav-button" onclick="navbutton()"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <div class="font-medium text-sm hidden md:hidden px-10" id="navmenu">
+                <a href="#" class="link">Home</a>
+                <a href="#" class="link">Services</a>
+                <a href="#" class="link">About us</a>
+                <a href="#" class="link">Contact Us</a>
+                <button class="rounded-full px-3 py-2 bg-root text-white animate-bounce">contact us</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-1 sm:mx-4 sm:my-4 md:mx-10 md:my-10 lg:mx-10 lg:mb-32">
+        <div class="flex sm:flex-col-reverse md:flex-row pt-5">
+            <div class="pr-5">
+                <div>
+                    <h5 class="uppercase font-medium text-xs text-creche sm:mt-5">find your dream hotel</h5>
+                    <h1 class="text-[44px] leading-tight font-medium">Your <span class="text-secondary">Dream</span>
+                        Hotel is Waiting for You!</h1>
+                    <p class="font-medium text-sm text-gray-500 pt-2 ">Find Hotels, rooms and Houses for your stay all
+                        around the globe
+                        and
+                        make your trips more exciting.... </p>
+                </div>
+                <div class="relative">
+                    <img src="./images/Selection.png" alt="" class="absolute left-16 cursor-progress">
+                    <p class="text-xs font-semibold mt-3 absolute top-8">Top Locations: Machester, London, Greenwich
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/heroimg.png" alt="">
+            </div>
+        </div>
+        <div class="flex justify-between items-center pt-12 px-24">
+            <a href="#" class="text-gray-400 font-semibold">Google</a>
+            <a href="#" class="text-gray-400 font-semibold">facebook</a>
+            <img src="./images/amazon.png" alt="">
+            <div class="flex items-center">
+                <img src="./images/Dropbox logo.png" alt="" class="pr-1">
+                <a href="#" class="text-gray-400 font-semibold">Dropbox</a>
+            </div>
+            <div class="flex items-center">
+                <img src="./images/slack logo.png" alt="" class="pr-1">
+                <a href="#" class="text-gray-400 font-semibold">Slack</a>
+            </div>
+        </div>
+    </section>
+    <section class="section-2 sm:pt-10 md:pt-0">
+        <div class="sm:mx-4 sm:my-4 md:mx-10 md:my-10 lg:mx-32 lg:m-32">
+            <div class="text-center">
+                <h3 class="capitalize text-5xl font-medium pb-8">our popular <span
+                        class="text-secondary">destinations</span></h3>
+                <p class="text-xs font-semibold text-gray-500 pb-2">Our aim is to provide you with
+                    a
+                    top-quality tour experience</p>
+            </div>
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 sm:gap-y-5 md:gap-x-3 pt-5">
+                <div class="relative bg-white border rounded-lg">
+                    <img class="rounded-lg" src="./images/beijing.png" alt="">
+                    <img class="absolute bottom-16 left-36" src="./images/99 button.png" alt="">
+                    <div class="px-3 relative">
+                        <h3 class="font-semibold text-base pt-3">Bangkok, Thailand.</h3>
+                        <p class="font-medium text-xs py-2">Bangkok is the capital and most populous city of Thailand.
+                            It is know in Thai as krung Thep Maha
+                            Nakhon or simply Krung Thep.</p>
+                        <img class=" my-3 absolute -bottom-1.5 left-56" src="./images/arrow.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/uss.png" alt="" class="rounded-lg">
+                </div>
+                <div>
+                    <img src="./images/uk.png" alt="" class="rounded-lg">
+                </div>
+            </div>
+            <div class="my-10 flex justify-center">
+                <img src="./images/Double arrow.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-3">
+        <div class="sm:mx-4 sm:my-4 md:mx-10 md:my-10 lg:mx-32 lg:my-32">
+            <div>
+                <h1 class="font-semibold sm:text-3xl md:text-5xl text-center">How <span
+                        class="text-secondary">Hotelmania</span> works?</h1>
+            </div>
+            <div class="py-10 px-20">
+                <img src="./images/round.png" alt="">
+            </div>
+            <div class="grid grid-cols-3">
+                <div>
+                    <a href="#" class="text-base font-semibold">Sign Up</a>
+                    <p class="text-xs font-medium text-gray-500">Hassle-free setup and simple job management from start
+                        to finish</p>
+                </div>
+                <div class="py-10">
+                    <a href="#" class="text-base font-semibold">Search Hotel</a>
+                    <p class="text-xs font-medium text-gray-500">predictable work rate at $65/hour. Ideal for growing
+                        shopify stores
+                    </p>
+                </div>
+                <div class="py-16">
+                    <a href="#" class="text-base font-semibold">Start Traveling</a>
+                    <p class="text-xs font-medium text-gray-500">No more flakey developers. storestaker developers get
+                        things done on
+                        time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="ml-32">
+            <div class="flex justify-center pb-10">
+                <h3 class="font-semibold sm:text-3xl md:text-5xl items-center">Choose your <span
+                        class="text-secondary">luxurious</span> room</h3>
+                <p class="font-semibold text-base text-gray-500 pr-24 pt-6">At vero eos et accusamus et iusto odio
+                    dignissimos ducimus
+                    qui blanditiss
+                    praesentium voluptatum
+                    deleniti atque corrupti quos dolores </p>
+            </div>
+            <div class="grid grid-cols-4 gap-x-3">
+                <img src="./images/service2.jpg" alt="">
+                <img src="./images/service1.jpg" alt="">
+                <img src="./images/service3.jpg" alt="">
+                <img src="./images/Services4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--
+    <section class="bg-primary mt-32">
+        <div class="text-center">
+            <h1>get notified you can still join the waitlist</h1>
+            <div>
+                a
+            </div>
+        </div>
+        <div></div>
+    </section>
+    -->
+
+    <section class="section-5">
+        <div class="sm:mx-4 sm:my-4 md:mx-10 md:my-10 lg:mx-32 lg:mt-32">
+            <div class="">
+                <div class="text-center">
+                    <h1 class="text-5xl font-semibold capitalize pb-5">What our happy <span
+                            class="text-secondary">client
+                        </span>say</h1>
+                    <p class="py-5 text-xs font-semibold text-gray-500">Things that makes it the best place to start
+                        trading
+                    </p>
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <div class="pr-20">
+                    <img src="./images/Ellipse 106.png" alt="">
+                    <h5 class="text-base font-semibold pr-5 pb-7">Robin Ayala Doe</h5>
+                    <p class="text-xs font-semibold text-gray-500">Okay, I’ve found the joy of cooking. It’s the process
+                        which my better half does it. There is
+                        sincere love than the adoration for sustenance.</p>
+                </div>
+                <div class="pr-20">
+                    <img src="./images/Ellipse 104.png" alt="">
+                    <h5 class="text-base font-semibold pr-5 pb-7">John De marili</h5>
+                    <p class="text-xs font-semibold text-gray-500">any individuals have eaten in this kitchen and have
+                        proceeded to lead typical, solid lives. The
+                        route to a man’s heart is through his stomach</p>
+                </div>
+                <div class="">
+                    <img src="./images/Ellipse 105.png" alt="">
+                    <h5 class="text-base font-semibold pb-7">Rowhan Smith</h5>
+                    <p class="text-xs font-semibold text-gray-500">You don't need to cook extravagant muddled perfect
+                        works
+                        of art, simple sustenance from new
+                        fixings.</p>
+                </div>
+            </div>
+            <div class="flex justify-center py-7">
+                <img src="./images/Double arrow.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+
+        <div class="relative top-16 ">
+            <div class="bg-foot text-white p-10 mx-5 md:mx-20 lg:mx-36 rounded-md space-y-10">
+                <p class="capitalize font-semibold text-5xl text-center">contact us</p>
+                <div class="flex items-center justify-between px-10">
+                    <div>
+                        <p>Mail Us:</p>
+                        <p>besnik@us.com</p>
+                    </div>
+                    <div>
+                        <p>Phone:</p>
+                        <p>+01 234 5678</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4 bg-primary px-36 pt-20 pb-10 sm:space-x-12 md:space-x-14">
+            <div class="spaxe-y-2">
+                <h1 class="font-semibold">HOTEL<span class="text-secondary uppercase">mania</span></h1>
+                <p class="text-xs font-semibold text-gray-500 space-y-2">Build your site for free and take as long as
+                    you need</p>
+            </div>
+            <div class="space-y-3">
+                <h3 class="font-semibold">Home</h3>
+                <div class="text-xs font-semibold text-gray-500 space-y-2">
+                    <p>Appirance</p>
+                    <p>Content</p>
+                    <p>How it work?</p>
+                    <p>Sell</p>
+                    <p>Guide</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <h3 class="font-semibold">Company</h3>
+                <div class="text-xs font-semibold text-gray-500 space-y-2">
+                    <p>About us</p>
+                    <p>FAQ </p>
+                    <p>Statistics</p>
+                    <p>Spoke</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <h3 class="font-semibold">Help</h3>
+                <div class="text-xs font-semibold text-gray-500 space-y-2">
+                    <p>How it work?</p>
+                    <p>Help desk</p>
+                    <p>Program</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        let navButtonEl = document.getElementById('nav-button')
+        let navMenuEl = document.getElementById('navmenu')
+
+        function navbutton() {
+            navMenuEl.classList.toggle('hidden')
+            alert(navMenuEl.classList)
+        }
+    </script>
+</body>
+
+</html>

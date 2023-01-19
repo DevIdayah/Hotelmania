@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-style{
+    @apply border-2 rounded
+}
+.list{
+    @apply capitalize text-sm pb-3 
+}
+.button{
+    @apply border-[1px] rounded bg-amber-500 px-3 py-2 text-white text-[10px] font-semibold uppercase
+}
+.chat{
+    @apply border rounded-full bg-white text-black text-sm font-sans px-2 py-2
+}
+.link{
+    @apply uppercase space-x-4 font-semibold hover:text-secondary 
+}
